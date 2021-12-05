@@ -1,6 +1,6 @@
 ﻿namespace AdventOfCode2021
 {
-    public class Aoc2021Day1
+    public class Day1
     {
         public int Part1(int[] input)
         {
