@@ -8,11 +8,11 @@ namespace AdventOfCode2021.Tests
         [Fact]
         public void Part1Test1()
         {
-            var sut = new Day1();
-            var input = new[] { 199, 200, 208, 210, 200, 207, 240, 269, 260, 263 };
-            var expected = 7;
+            Day1 sut = new();
+            int[] input = { 199, 200, 208, 210, 200, 207, 240, 269, 260, 263 };
+            int expected = 7;
 
-            var actual = sut.Part1(input);
+            int actual = sut.Part1(input);
 
             actual.Should().Be(expected);
         }
@@ -20,11 +20,11 @@ namespace AdventOfCode2021.Tests
         [Fact]
         public void Part2Test1()
         {
-            var sut = new Day1();
-            var input = new[] { 199, 200, 208, 210, 200, 207, 240, 269, 260, 263 };
-            var expected = 5;
+            Day1 sut = new();
+            int[] input = { 199, 200, 208, 210, 200, 207, 240, 269, 260, 263 };
+            int expected = 5;
 
-            var actual = sut.Part2(input, 3);
+            int actual = sut.Part2(input, 3);
 
             actual.Should().Be(expected);
         }
